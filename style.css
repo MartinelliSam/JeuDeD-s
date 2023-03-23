@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+@keyframes animation {
+  0% {opacity: 100%;}
+  25% {opacity: 50%;}
+  50% {opacity: 0%;}
+  75% {opacity: 50%;}
+  100% {opacity: 100%;}
+}
+
+@keyframes spin {
+  0% {opacity: 0; -webkit-transform: rotate(0deg)}
+  100% {opacity: 1; -webkit-transform: rotate3d(1, 1, 1, 360deg);}
+}
+
+:root {
+  --color: rgb(234, 77, 76);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.new {
+  padding: 30px
+}
+
+.btn {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.current {
+  font-weight: bold;
+  background-color: var(--color);
+  height: 80px;
+  width: 120px;
+}
+
+.player, .score {
+  height: 220px;
+}
+
+.score {
+  padding-top: 80px;
+}
+
+#player-0, #player-1 {
+  font-size: 2em;
+}
+
+#round-player-0, #round-player-1 {
+  color: white; 
+  font-size: 1.8em;
+}
+
+#global-player-0, #global-player-1 {
+  color: var(--color);
+  font-size: 3em;
+}
+
+.dice {
+  animation-name: animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.spin {
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+
+.bold {
+  font-weight: bolder;
+  background-color: rgba(232, 175, 175, 0.7);
+}
+
+.hidden {
+  display: none;
+}
+
