@@ -87,5 +87,6 @@ rollDice.addEventListener('click', () => {
 hold.addEventListener('click', () => {
   if (gameOn){
   holdDice();
+  nextPlayer();
   }
 });
