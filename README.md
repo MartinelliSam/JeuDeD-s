@@ -3,6 +3,9 @@ Jeu de dés créé avec Javascript
 
 ![accueil](https://github.com/MartinelliSam/JeuDeDes/assets/122564923/873bcef7-178b-4dfa-bd45-9082be1af6a8)
 
+## Démo : 
+
+[https://great-dice-game.netlify.app/]
 
 ## Règles : 
 
