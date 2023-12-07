@@ -5,7 +5,7 @@ Jeu de dés créé avec Javascript
 
 ## Démo : 
 
-[https://great-dice-game.netlify.app/]
+https://great-dice-game.netlify.app/
 
 ## Règles : 
 
